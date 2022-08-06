@@ -66,7 +66,7 @@ function operation(event) {
 
 function key() {
   if (visor.value === '942') {
-    alert(':D')
+    alert(':D ')
   }
   if (visor.value === '42') {
     alert('a resposta para a pergunta fundamental sobre a vida, o universo e tudo mais')
@@ -75,3 +75,22 @@ function key() {
     alert('ooow, I love you too!')
   }
 }
+
+
+clear.addEventListener('click', clearVisor);
+button1.addEventListener('click', writeNumber)
+button2.addEventListener('click', writeNumber)
+button3.addEventListener('click', writeNumber)
+button4.addEventListener('click', writeNumber)
+button5.addEventListener('click', writeNumber)
+button6.addEventListener('click', writeNumber)
+button7.addEventListener('click', writeNumber)
+button8.addEventListener('click', writeNumber)
+button9.addEventListener('click', writeNumber)
+button0.addEventListener('click', writeNumber)
+sum.addEventListener('click', operation)
+subtraction.addEventListener('click', operation)
+multiplication.addEventListener('click', operation)
+division.addEventListener('click', operation)
+result.addEventListener('click', resultOperation);
+password.addEventListener('click', key);
