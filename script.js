@@ -19,3 +19,11 @@ const password = document.getElementById('password');
 let lastInput = 0;
 let signal = null;
 let accumulator = 0;
+
+function writeNumber(event) {
+  if (parseInt(visor.value) === 0) {
+    visor.value = '';
+  }
+  const button = (event.target.value);
+  visor.value += button;
+}
