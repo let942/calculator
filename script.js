@@ -32,3 +32,26 @@ function clearVisor() {
   visor.value = '';
   accumulator = 0;
 }
+
+
+function resultOperation(event) {
+  const newInput = parseInt(visor.value);
+  console.log(newInput);
+
+  if (signal === '+') {
+    visor.value = parseInt(lastInput) + newInput;
+
+  } else if (signal === '-') {
+    visor.value = parseInt(lastInput) - newInput;
+
+  } else if (signal === '*') {
+    visor.value = parseInt(lastInput) * newInput;
+  } else if (signal === '/') {
+    visor.value = parseInt(lastInput) / newInput;
+  } else {
+    visor.value = 0
+  }
+  console.log(lastInput)
+  console.log(accumulator)
+
+}
