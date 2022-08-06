@@ -16,3 +16,6 @@ const result = document.getElementById('=');
 const visor = document.getElementById('visor');
 const clear = document.getElementById('clear');
 const password = document.getElementById('password');
+let lastInput = 0;
+let signal = null;
+let accumulator = 0;
