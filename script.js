@@ -63,3 +63,15 @@ function operation(event) {
   console.log(lastInput);
   clearVisor();
 }
+
+function key() {
+  if (visor.value === '942') {
+    alert(':D')
+  }
+  if (visor.value === '42') {
+    alert('a resposta para a pergunta fundamental sobre a vida, o universo e tudo mais')
+  }
+  if (visor.value === '143') {
+    alert('ooow, I love you too!')
+  }
+}
