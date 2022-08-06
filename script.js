@@ -55,3 +55,11 @@ function resultOperation(event) {
   console.log(accumulator)
 
 }
+
+function operation(event) {
+  lastInput = parseInt(visor.value);
+  signal = (event.target.value);
+  console.log(signal);
+  console.log(lastInput);
+  clearVisor();
+}
