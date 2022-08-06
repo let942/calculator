@@ -8,3 +8,8 @@ const button7 = document.getElementById('button-7');
 const button8 = document.getElementById('button-8');
 const button9 = document.getElementById('button-9');
 const button0 = document.getElementById('button-0');
+const sum = document.getElementById('+');
+const subtraction = document.getElementById('-');
+const multiplication = document.getElementById('*');
+const division = document.getElementById('/');
+const result = document.getElementById('=');
