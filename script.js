@@ -76,7 +76,6 @@ function key() {
   }
 }
 
-
 clear.addEventListener('click', clearVisor);
 button1.addEventListener('click', writeNumber)
 button2.addEventListener('click', writeNumber)
