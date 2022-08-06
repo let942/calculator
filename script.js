@@ -13,3 +13,6 @@ const subtraction = document.getElementById('-');
 const multiplication = document.getElementById('*');
 const division = document.getElementById('/');
 const result = document.getElementById('=');
+const visor = document.getElementById('visor');
+const clear = document.getElementById('clear');
+const password = document.getElementById('password');
