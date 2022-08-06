@@ -27,3 +27,8 @@ function writeNumber(event) {
   const button = (event.target.value);
   visor.value += button;
 }
+
+function clearVisor() {
+  visor.value = '';
+  accumulator = 0;
+}
