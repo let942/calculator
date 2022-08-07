@@ -1,0 +1,40 @@
+* {
+  background-color: lightgray;
+}
+
+.base {
+  width: 25%;
+  height: 25%;
+  padding: 20%, 20%, 20%, 20%;
+  background-color: gray;
+}
+
+.line1 {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: pink;
+}
+
+.line2 {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: lightblue;
+}
+
+.line3 {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: lightsalmon;
+}
+
+.line4 {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: lightgreen;
+}
+
+.line5 {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: lightslategray;
+}
