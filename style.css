@@ -1,40 +1,8 @@
-* {
-  background-color: lightgray;
-}
-
-.base {
-  width: 25%;
-  height: 25%;
-  padding: 20%, 20%, 20%, 20%;
-  background-color: gray;
-}
-
-.line1 {
+body {
+  width: 100%;
+  height: 100vh;
   display: flex;
-  justify-content: space-evenly;
-  background-color: pink;
-}
-
-.line2 {
-  display: flex;
-  justify-content: space-evenly;
-  background-color: lightblue;
-}
-
-.line3 {
-  display: flex;
-  justify-content: space-evenly;
-  background-color: lightsalmon;
-}
-
-.line4 {
-  display: flex;
-  justify-content: space-evenly;
-  background-color: lightgreen;
-}
-
-.line5 {
-  display: flex;
-  justify-content: space-evenly;
-  background-color: lightslategray;
+  align-items: center;
+  justify-content: center;
+  background: lightgray;
 }
