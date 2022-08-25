@@ -12,34 +12,50 @@
 <body>
   <main>
     <div class="base">
-      <div class="line1">
-        <input placeholder="0" disabled="true" id="visor" />
-      </div>
-      <div class="line2">
-        <button value="1" id="button-1">1</button>
-        <button value="2" id="button-2">2</button>
-        <button value="3" id="button-3">3</button>
-        <button id="clear">clear</button>
-        <button id="=">=</button>
-      </div>
-      <div class="line3">
-        <button value="4" id="button-4">4</button>
-        <button value="5" id="button-5">5</button>
-        <button value="6" id="button-6">6</button>
-      </div>
-      <div class="line4">
-        <button value="7" id="button-7">7</button>
-        <button value="8" id="button-8">8</button>
-        <button value="9" id="button-9">9</button>
-      </div>
-      <div class="line5">
-        <div name="fourth-column"></div>
-        <button value="0" id="button-0">0</button>
-        <button value="-" id="-"> - </button>
-        <button value="+" id="+">+</button>
-        <button value="*" id="*">*</button>
-        <button value="/" id="/">/</button>
-        <button value="password" id="password">password</button>
+      <h1>Letícia Chagas Marques</h1>
+      <div class="calculator">
+        <h1>Calculator</h1>
+        <p id="result"> </p>
+        <table>
+          <tr>
+            <td><button class="button" onclick="clearScreem()">C</button></td>
+            <td><button class="button" onclick="clearNumber()">
+                < </button>
+            </td>
+            <td><button class="button" onclick="insert('/')">/</button></td>
+            <td><button class="button" onclick="insert('x')">X</button></td>
+          </tr>
+          <tr>
+            <td><button class="button" onclick="insert('1')">1</button></td>
+            <td><button class="button" onclick="insert('2')">2</button></td>
+            <td><button class="button" onclick="insert('3')">3</button></td>
+            <td><button class="button" onclick="insert('-')">-</button></td>
+          </tr>
+          <tr>
+            <td><button class="button" onclick="insert('4')">4</button></td>
+            <td><button class="button" onclick="insert('5')">5</button></td>
+            <td><button class="button" onclick="insert('6')">6</button></td>
+            <td><button class="button" onclick="insert('+')">+</button></td>
+          </tr>
+          <tr>
+            <td><button class="button" onclick="insert('7')">7</button></td>
+            <td><button class="button" onclick="insert('8')">8</button></td>
+            <td><button class="button" onclick="insert('9')">9</button></td>
+            <td rowspan="2">
+              <button class="button" id="iqual" onclick="calculation()">
+                =
+              </button>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <button onclick="insert('0')" class="button" onclick="9" id="zero">
+                0
+              </button>
+            </td>
+            <td><button class="button" onclick="insert('.')">.</button></td>
+          </tr>
+        </table>
       </div>
     </div>
   </main>
