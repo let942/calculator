@@ -1,37 +1,41 @@
 * {
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-.base {
+body {
+  align-items: center;
   background-image: linear-gradient(45deg, rgb(163, 90, 163), pink);
-  height: 100vw;
+  display: flex;
   color: rgb(255, 217, 223);
-  font-family: Arial, Helvetica, sans-serif;
+  height: 100vh;
+  justify-content: center;
+  min-height: 100vh;
   text-align: center;
-
+  width: 100vw;
 }
 
 .calculator {
-  position: absolute;
   background-color: rgba(216, 112, 147, 0.5);
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   border-radius: 10px;
+  border-radius: 20px;
+  box-shadow:
+    15px 15px 20px rgba(151, 108, 129, 0.7),
+    -15px -15px 20px rgba(255, 181, 217, 0.7);
   padding: 15px;
-
 }
 
 .button {
-  width: 50px;
-  height: 50px;
-  font-size: 25px;
-  cursor: pointer;
-  background-color: rgba(245, 174, 210, 0.7);
-  color: whitesmoke;
   border: none;
+  background-color: rgba(245, 174, 210, 0.7),;
+  color: rgb(174, 174, 174);
+  cursor: pointer;
+  font-size: 25px;
+  height: 50px;
   margin: 3px;
+  width: 50px;
 }
 
 .button:hover {
@@ -55,42 +59,58 @@
   padding: 5px;
   color: palevioletred;
   text-align: right;
-
 }
 
-
-/* body {
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: lightpink;
+/* .button {
+  border: none;
+  background-color: rgba(245, 174, 210, 0.7),;
+  color: rgb(174, 174, 174);
+  cursor: pointer;
+  font-size: 25px;
+  height: 50px;
+  margin: 3px;
+  width: 50px;
 }
 
-input {
+.button:hover {
+  background-color: rgba(235, 88, 137, 0.7);
+}
 
-  color: palevioletred;
+#iqual {
+  height: 106px;
+}
+
+#zero {
+  width: 106px;
+}
+
+#result {
+  background-color: antiquewhite;
+  width: 214px;
+  height: 30px;
+  margin: 5px;
+  font-size: 25px;
   padding: 5px;
-  outline: invert;
-  font-size: 20px;
+  color: palevioletred;
+  text-align: right;
+} */
 
-}
 
-.base {
-  width: 100%;
-  border: rgb(255, 0, 157);
-  background-color: rgb(241, 215, 243);
-}
+/* .base {
+  background-image: linear-gradient(45deg, rgb(163, 90, 163), pink);
+  height: 100vw;
+  color: rgb(255, 217, 223);
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+} */
 
-.nun-button {
-  color: rgb(255, 0, 157);
-  font-size: 20px;
-  border-radius: 20%;
-}
+/* .calculator {
+  position: absolute;
+  background-color: rgba(216, 112, 147, 0.5);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  padding: 15px;
 
-.other-button {
-  color: rgb(255, 0, 234);
-  font-size: 20px;
-  border-radius: 15%;
 } */
