@@ -11,54 +11,60 @@
 
 <body>
   <main>
-    <div class="base">
-      <h1>Letícia Chagas Marques</h1>
-      <div class="calculator">
-        <h1>Calculator</h1>
-        <p id="result"> </p>
-        <table>
-          <tr>
-            <td><button class="button" onclick="clearScreem()">C</button></td>
-            <td><button class="button" onclick="clearNumber()">
-                < </button>
-            </td>
-            <td><button class="button" onclick="insert('/')">/</button></td>
-            <td><button class="button" onclick="insert('x')">X</button></td>
-          </tr>
-          <tr>
-            <td><button class="button" onclick="insert('1')">1</button></td>
-            <td><button class="button" onclick="insert('2')">2</button></td>
-            <td><button class="button" onclick="insert('3')">3</button></td>
-            <td><button class="button" onclick="insert('-')">-</button></td>
-          </tr>
-          <tr>
-            <td><button class="button" onclick="insert('4')">4</button></td>
-            <td><button class="button" onclick="insert('5')">5</button></td>
-            <td><button class="button" onclick="insert('6')">6</button></td>
-            <td><button class="button" onclick="insert('+')">+</button></td>
-          </tr>
-          <tr>
-            <td><button class="button" onclick="insert('7')">7</button></td>
-            <td><button class="button" onclick="insert('8')">8</button></td>
-            <td><button class="button" onclick="insert('9')">9</button></td>
-            <td rowspan="2">
-              <button class="button" id="iqual" onclick="calculation()">
-                =
-              </button>
-            </td>
-          </tr>
-          <tr>
-            <td colspan="2">
-              <button onclick="insert('0')" class="button" onclick="9" id="zero">
-                0
-              </button>
-            </td>
-            <td><button class="button" onclick="insert('.')">.</button></td>
-          </tr>
-        </table>
-      </div>
-    </div>
+    <div class="calculator">
+      <h1>Calculator</h1>
+      <p id="display"></p>
+      <table>
+        <tr>
+          <td colspan="2"><button id="clear" class="button" onclick="clearScreem()">Clear</button></td>
+          </button>
+          </td>
+          <td><button class="button" onclick="insert('/')">/</button></td>
+          <td><button class="button" onclick="insert('x')">X</button></td>
+        </tr>
+        <tr>
+          <td><button class="button" onclick="insert('1')">1</button></td>
+          <td><button class="button" onclick="insert('2')">2</button></td>
+          <td><button class="button" onclick="insert('3')">3</button></td>
+          <td><button class="button" onclick="insert('-')">-</button></td>
+        </tr>
+        <tr>
+          <td><button class="button" onclick="insert('4')">4</button></td>
+          <td><button class="button" onclick="insert('5')">5</button></td>
+          <td><button class="button" onclick="insert('6')">6</button></td>
+          <td><button class="button" onclick="insert('+')">+</button></td>
+        </tr>
+        <tr>
+          <td><button class="button" onclick="insert('7')">7</button></td>
+          <td><button class="button" onclick="insert('8')">8</button></td>
+          <td><button class="button" onclick="insert('9')">9</button></td>
+          <td rowspan="2">
+            <button class="button" id="iqual" onclick="calculation()">
+              =
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <button onclick="insert('0')" class="button" onclick="9" id="zero">
+              0
+            </button>
+          </td>
+          <td><button class="button" onclick="insert('.')">.</button></td>
+        </tr>
+      </table>
+
   </main>
+  <footer>
+    <div class="footer_author">
+      <p>DEVELOPED BY</p>
+    </div>
+    <div class="footer_social">
+      <a href="https://github.com/let942" target="_blank"><img src="https://img.icons8.com/nolan/64/github.png" /></a>
+      <a href="https://www.linkedin.com/in/leticia-chagas-marques/" target="_blank"><img
+          src="https://img.icons8.com/nolan/64/1A6DFF/C822FF/linkedin-circled.png" /></a>
+    </div>
+  </footer>
   <script src="script.js"></script>
 </body>
 
